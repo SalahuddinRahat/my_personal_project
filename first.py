@@ -1,10 +1,11 @@
-def main():
-    greeting = input("enter expression: ")
-    if greeting.startswith("hello"):
-        print("$0")
-    if greeting.startswith("how"):
-        print("$100")
+while True:
+    n = int(input("enter the value of n: "))
+    if n>0:
+        break
+    else:
+        continue
+for _ in range(n):
+    print("meow")
 
-if __name__ == "__main__":
-    main()
+
 
